@@ -3,7 +3,8 @@ This is to practice and demonstrate basic skills of Linux and Git .
 
 Project Description :
 
-Overview:<br>
+Overview:
+
 The Git Skills Test - Collaborative Text File project is a hands-on exercise designed to evaluate your proficiency with Git, the version control system widely used for collaborative software development. 
 
 In this project, you will work with a simple text file, 
