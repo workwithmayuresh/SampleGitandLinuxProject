@@ -7,12 +7,12 @@ Overview:<br>
 The Git Skills Test - Collaborative Text File project is a hands-on exercise designed to evaluate your proficiency with Git, the version control system widely used for collaborative software development. <br>In this project, you will work with a simple text file, 
 demonstrating your ability to create branches, make changes, resolve conflicts, and collaborate with others in a Git-based environment.
 
-Project Goals:
-1.Git Fundamentals: Gain practical experience with Git by performing basic version control operations such as cloning, branching, committing, and merging.
+Project Goals:<br>
+1.Git Fundamentals: Gain practical experience with Git by performing basic version control operations such as cloning, branching, committing, and merging.<br>
 
-2.Collaboration: Simulate a collaborative workflow by making changes to a shared shell script file and managing potential conflicts when multiple contributors make changes concurrently.
+2.Collaboration: Simulate a collaborative workflow by making changes to a shared shell script file and managing potential conflicts when multiple contributors make changes concurrently.<br>
 
-3.Documentation: Practice good Git habits by creating informative commit messages and keeping a concise project README.
+3.Documentation: Practice good Git habits by creating informative commit messages and keeping a concise project README.<br>
 
 
 Features:
