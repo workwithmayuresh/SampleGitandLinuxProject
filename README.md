@@ -36,8 +36,7 @@ How to Use:
 
 Skills to Test:
 
-**•Cloning a Git repository.**
-
+•Cloning a Git repository.
 •Creating and switching between branches.
 •Testing out creating a Linux shell script
 •Making changes, committing, and pushing to remote branches.
