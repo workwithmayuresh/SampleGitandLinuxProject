@@ -18,6 +18,7 @@ Project Goals:
 
 
 Features:
+
 The Collaborative Text File project will include the following features:
 
 1.Repository Setup: A Git repository will be created, containing a shared shell script file.
