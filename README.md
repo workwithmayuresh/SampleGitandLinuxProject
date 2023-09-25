@@ -35,6 +35,7 @@ Skills to Test:
 •Resolving merge conflicts.
 •Creating informative commit messages.
 •Collaborative Git workflow.
+
 Extensions:
 To challenge yourself further, consider adding the following advanced features:
 •Implement a review process where changes must be approved before merging.
