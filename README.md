@@ -47,7 +47,7 @@ How to Use:
 
 Skills to Test:
 
-•Cloning a Git repository. **Bold**
+**Bold** •Cloning a Git repository. **Bold**
 
 •Creating and switching between branches.
 
