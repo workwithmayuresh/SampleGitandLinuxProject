@@ -21,8 +21,11 @@ Features:
 The Collaborative Text File project will include the following features:
 
 1.Repository Setup: A Git repository will be created, containing a shared shell script file.
+
 2.Collaborative Editing: You and other contributors (real or simulated) will make changes to the file on separate branches.
+
 3.Branch Merging: You will merge changes from multiple branches, resolving any conflicts that arise.
+
 4.Commit Messages: Detailed commit messages will be required for each change made.
 
 How to Use:
