@@ -19,7 +19,7 @@ Project Goals:
 3.Documentation: Practice good Git habits by creating informative commit messages and keeping a concise project README.
 
 
-Features:
+**Features:**
 
 The Collaborative Text File project will include the following features:
 
