@@ -3,14 +3,14 @@ This is to practice and demonstrate basic skills of Linux and Git .
 
 Project Description :
 
-Overview:
+**Overview:**
 
 The Git Skills Test - Collaborative Text File project is a hands-on exercise designed to evaluate your proficiency with Git, the version control system widely used for collaborative software development. 
 
 In this project, you will work with a simple text file, 
 demonstrating your ability to create branches, make changes, resolve conflicts, and collaborate with others in a Git-based environment.
 
-Project Goals:
+**Project Goals:**
 
 1.Git Fundamentals: Gain practical experience with Git by performing basic version control operations such as cloning, branching, committing, and merging.
 
@@ -31,7 +31,7 @@ The Collaborative Text File project will include the following features:
 
 4.Commit Messages: Detailed commit messages will be required for each change made.
 
-How to Use:
+**How to Use:**
 
 1.Clone the Repository: Use git clone to create a local copy of the Git repository for this project.
 
@@ -45,7 +45,7 @@ How to Use:
 
 6.Document Your Work: Update the README file in the repository with information about your contributions.
 
-Skills to Test:
+**Skills to Test:**
 
 •Cloning a Git repository.
 
@@ -61,12 +61,12 @@ Skills to Test:
 
 •Collaborative Git workflow.
 
-Extensions:
+**Extensions:**
 
 To challenge yourself further, consider adding the following advanced features:
 •Implement a review process where changes must be approved before merging.
 
-Conclusion:
+**Conclusion:**
 
 The Git Skills Test - Collaborative Text File project offers a practical opportunity to showcase your Git skills and understanding of collaborative version control. 
 By successfully completing this project, you'll demonstrate your ability to work effectively with Git in a team environment and manage version control for collaborative coding projects
