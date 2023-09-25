@@ -9,14 +9,22 @@ demonstrating your ability to create branches, make changes, resolve conflicts, 
 
 Project Goals:
 1.Git Fundamentals: Gain practical experience with Git by performing basic version control operations such as cloning, branching, committing, and merging.
+
 2.Collaboration: Simulate a collaborative workflow by making changes to a shared shell script file and managing potential conflicts when multiple contributors make changes concurrently.
+
 3.Documentation: Practice good Git habits by creating informative commit messages and keeping a concise project README.
 
+
 Features:
+
 The Collaborative Text File project will include the following features:
+
 1.Repository Setup: A Git repository will be created, containing a shared shell script file.
+
 2.Collaborative Editing: You and other contributors (real or simulated) will make changes to the file on separate branches.
+
 3.Branch Merging: You will merge changes from multiple branches, resolving any conflicts that arise.
+
 4.Commit Messages: Detailed commit messages will be required for each change made.
 
 How to Use:
