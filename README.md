@@ -19,54 +19,30 @@ demonstrating your ability to create branches, make changes, resolve conflicts, 
 3.Documentation: Practice good Git habits by creating informative commit messages and keeping a concise project README.
 
 
-**Features:**
+**Project Guidlines**
 
-The Collaborative Text File project will include the following features:
+**1. Repository Setup:**
+   - Create a new Git repository either locally or on a platform like GitHub, GitLab, or Bitbucket.
+   - Add a shared shell script file (e.g., `shared-script.sh`) to the repository.
 
-1.Repository Setup: A Git repository will be created, containing a shared shell script file.
+**2. Collaborative Editing:**
+   - Each contributor should clone the repository using `git clone`.
+   - Contributors should create their own branches using `git checkout -b your-branch-name`.
+   - Edit the `shared-script.sh` file in your branch with your changes.
+   - Commit your changes with meaningful commit messages using `git commit`.
 
-2.Collaborative Editing: You and other contributors (real or simulated) will make changes to the file on separate branches.
+**3. Branch Merging:**
+   - To merge changes from multiple branches into the main branch, use `git checkout main` to switch to the main branch.
+   - Then use `git merge your-branch-name` to merge changes from a specific branch into the main branch.
+   - If there are conflicts, Git will prompt you to resolve them. You can use a text editor to manually resolve conflicts.
+   - After resolving conflicts, commit the changes again.
 
-3.Branch Merging: You will merge changes from multiple branches, resolving any conflicts that arise.
+**4. Commit Messages:**
+   - Make sure to provide detailed commit messages that describe the purpose and content of each commit. Use `git commit -m "Your commit message here"` to commit.
 
-4.Commit Messages: Detailed commit messages will be required for each change made.
 
-**How to Use:**
+**5. Simulate Collaboration:**
+   - Invite other contributors to clone the repository and create their own branches.
+   - Each contributor can make changes in their branches simultaneously.
 
-1.Clone the Repository: Use git clone to create a local copy of the Git repository for this project.
 
-2.Create Your Branch: Create a new branch for yourself using git checkout -b your-branch-name.
-
-3.Make Changes: Edit the file in your branch and commit your changes with meaningful commit messages.
-
-4.Simulate Collaboration: Invite other contributors (or use multiple terminal instances) to make changes on their branches simultaneously.
-
-5.Branch Merging: Merge changes from different branches into the main branch, resolving any conflicts as necessary.
-
-6.Document Your Work: Update the README file in the repository with information about your contributions.
-
-**Skills to Test:**
-
-•Cloning a Git repository.
-
-•Creating and switching between branches.
-
-•Testing out creating a Linux shell script
-
-•Making changes, committing, and pushing to remote branches.
-
-•Resolving merge conflicts.
-
-•Creating informative commit messages.
-
-•Collaborative Git workflow.
-
-**Extensions:**
-
-To challenge yourself further, consider adding the following advanced features:
-•Implement a review process where changes must be approved before merging.
-
-**Conclusion:**
-
-The Git Skills Test - Collaborative Text File project offers a practical opportunity to showcase your Git skills and understanding of collaborative version control. 
-By successfully completing this project, you'll demonstrate your ability to work effectively with Git in a team environment and manage version control for collaborative coding projects
