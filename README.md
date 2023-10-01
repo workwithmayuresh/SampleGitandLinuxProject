@@ -16,10 +16,13 @@ demonstrating your ability to create branches, make changes, resolve conflicts, 
 
 **Step 1: Repository Setup**
 
-1. Create a new directory for your project and navigate to it in your terminal.
+1. Create a new Git repository on Github .
+   Once created navigate to the desired path and clone it to your local system
 
-   Create a new Git repository on Github
-   - Once created navigate to the desired path and clone it to your local system
+   ```bash
+   mkdir my-git-project
+   cd my-git-project
+   ```
 
    ```bash
     git clone https://github.com/workwithmayuresh/SampleGitandLinuxProject.git
