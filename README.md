@@ -35,8 +35,10 @@ demonstrating your ability to create branches, make changes, resolve conflicts, 
 3. Create a shared shell script file named `shared-script.sh` in this directory and add some content to it.
 
    ```bash
-   echo "#!/bin/bash" > shared-script.sh
-   echo "echo 'Hello, world!'" >> shared-script.sh
+    #!/bin/bash
+
+    echo " Hello guys, this is a simple shell script ! "
+
    ```
 
 4. Add the file to the Git repository and make an initial commit.
