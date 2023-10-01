@@ -14,28 +14,75 @@ demonstrating your ability to create branches, make changes, resolve conflicts, 
 
 **Project Guidlines**
 
-**1. Repository Setup:**
-   - Create a new Git repository either locally or on a platform like GitHub, GitLab, or Bitbucket.
-   - Add a shared shell script file (e.g., `shared-script.sh`) to the repository.
+**Step 1: Repository Setup**
 
-**2. Collaborative Editing:**
-   - Each contributor should clone the repository using `git clone`.
-   - Contributors should create their own branches using `git checkout -b your-branch-name`.
-   - Edit the `shared-script.sh` file in your branch with your changes.
-   - Commit your changes with meaningful commit messages using `git commit`.
+1. Create a new directory for your project and navigate to it in your terminal.
 
-**3. Branch Merging:**
-   - To merge changes from multiple branches into the main branch, use `git checkout main` to switch to the main branch.
-   - Then use `git merge your-branch-name` to merge changes from a specific branch into the main branch.
-   - If there are conflicts, Git will prompt you to resolve them. You can use a text editor to manually resolve conflicts.
-   - After resolving conflicts, commit the changes again.
+   ```bash
+   mkdir SampleGit-LinuxProject
+   cd SampleGit-LinuxProject
 
-**4. Commit Messages:**
-   - Make sure to provide detailed commit messages that describe the purpose and content of each commit. Use `git commit -m "Your commit message here"` to commit.
+   ```
 
+2. Initialize a new Git repository.
 
-**5. Simulate Collaboration:**
-   - Invite other contributors to clone the repository and create their own branches.
-   - Each contributor can make changes in their branches simultaneously.
+   ```bash
+   git init
+   ```
+
+3. Create a shared shell script file named `shared-script.sh` in this directory and add some content to it.
+
+   ```bash
+   echo "#!/bin/bash" > shared-script.sh
+   echo "echo 'Hello, world!'" >> shared-script.sh
+   ```
+
+4. Add the file to the Git repository and make an initial commit.
+
+   ```bash
+   git add shared-script.sh
+   git commit -m "Initial commit - added shared-script.sh"
+   ```
+
+**Step 2: Collaborative Editing**
+
+1. Create your branch.
+
+   ```bash
+   git checkout -b your-branch-name
+   ```
+
+2. Edit the `shared-script.sh` file with your changes. For example, you can modify the script to do something different or add new functionality.
+
+3. Commit your changes with a meaningful commit message.
+
+   ```bash
+   git add shared-script.sh
+   git commit -m "Implemented feature X in the script"
+   ```
+
+**Step 3: Branch Merging**
+
+1. Switch back to the main branch.
+
+   ```bash
+   git checkout main
+   ```
+
+2. Merge your branch into the main branch.
+
+   ```bash
+   git merge your-branch-name
+   ```
+
+   If there are any conflicts, Git will prompt you to resolve them. Open the `shared-script.sh` file, resolve the conflicts, and then commit the changes.
+
+**Step 4: Commit Messages**
+
+Ensure that you provide detailed and meaningful commit messages for each of your commits, as shown in the previous steps.
+
+**Step 5: Simulate Collaboration**
+
+Invite other contributors to clone the repository and follow the same steps to create branches, make changes, and commit them.
 
 
