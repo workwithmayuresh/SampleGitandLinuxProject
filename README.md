@@ -18,26 +18,28 @@ demonstrating your ability to create branches, make changes, resolve conflicts, 
 
 1. Create a new directory for your project and navigate to it in your terminal.
 
+   Create a new Git repository on Github
+   - Once created navigate to the desired path and clone it to your local system
+
    ```bash
-   mkdir SampleGit-LinuxProject
-   cd SampleGit-LinuxProject
+    git clone https://github.com/workwithmayuresh/SampleGitandLinuxProject.git
 
    ```
 
-2. Initialize a new Git repository.
+3. Initialize a new Git repository.
 
    ```bash
    git init
    ```
 
-3. Create a shared shell script file named `shared-script.sh` in this directory and add some content to it.
+4. Create a shared shell script file named `shared-script.sh` in this directory and add some content to it.
 
    ```bash
    echo "#!/bin/bash" > shared-script.sh
    echo "echo 'Hello, world!'" >> shared-script.sh
    ```
 
-4. Add the file to the Git repository and make an initial commit.
+5. Add the file to the Git repository and make an initial commit.
 
    ```bash
    git add shared-script.sh
