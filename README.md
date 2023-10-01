@@ -18,7 +18,7 @@ demonstrating your ability to create branches, make changes, resolve conflicts, 
 
 1. Create a new Git repository on Github .
    Once created navigate to the desired path and clone it to your local system
-   Initialize the repo using git init command or while cloning only after URL just put a '.' it will be intialized automatically .
+  
 
    ```bash
    mkdir my-git-project
