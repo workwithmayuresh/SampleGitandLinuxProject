@@ -29,20 +29,16 @@ demonstrating your ability to create branches, make changes, resolve conflicts, 
 
    ```
 
-3. Initialize a new Git repository.
 
-   ```bash
-   git init
-   ```
 
-4. Create a shared shell script file named `shared-script.sh` in this directory and add some content to it.
+2. Create a shared shell script file named `shared-script.sh` in this directory and add some content to it.
 
    ```bash
    echo "#!/bin/bash" > shared-script.sh
    echo "echo 'Hello, world!'" >> shared-script.sh
    ```
 
-5. Add the file to the Git repository and make an initial commit.
+3. Add the file to the Git repository and make an initial commit.
 
    ```bash
    git add shared-script.sh
